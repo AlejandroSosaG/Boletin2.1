@@ -23,22 +23,14 @@ public class Ejercicio10 {
 		// Si la suma entre las dos primeras variables da la tercera mostramos un mensaje diciendolo.
 		if(num+num2==num3) {
 			System.out.println("La suma del primer y segundo número dan como resultado el tercero");
-		// Sino seguimos el programa.
-		}else {
 			// Si la suma entre la primera y la tercera variable da la segunda mostramos un mensaje diciendolo.
-			if(num+num3==num2) {
+		}else if(num+num3==num2) {
 				System.out.println("La suma del primer y tercer número dan como resultado el segundo");
-			// Sino seguimos el programa.
-			}else {
 				// Si la suma entre las dos últimas variables da la primera mostramos un mensaje diciendolo.
-				if(num2+num3==num) {
+			}else if(num2+num3==num) {
 					System.out.println("La suma del segundo y tercer número dan como resultado el primero");
 				// Sino mostramos un mensaje dicienddo que no se puede sumar dos de las tres variables para que de la otra.
-				}else {
-					System.out.println("No hay ninguna suma entre dos de esos números que den como resultado el otro");
-				}
-			}
-		}
+				}else System.out.println("No hay ninguna suma entre dos de esos números que den como resultado el otro");
 		// Cerramos escaner.
 		sc.close();
 	}

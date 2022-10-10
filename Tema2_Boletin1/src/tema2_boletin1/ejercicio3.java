@@ -17,9 +17,7 @@ public class ejercicio3 {
 		if(num<1 && num>-1 && num!=0) {
 			System.out.println("Es un número casi-cero");
 		// Sino mostramos un mensaje diciendo que no es un número casi-cero.
-		}else {
-			System.out.println("No es un número casi-cero");
-		}
+		}else System.out.println("No es un número casi-cero");
 		// Cerramos el escaner.
 		sc.close();
 	}

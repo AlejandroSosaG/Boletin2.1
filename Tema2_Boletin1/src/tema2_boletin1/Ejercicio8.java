@@ -16,31 +16,19 @@ public class Ejercicio8 {
 		// Si la nota está entre 0 y 5(0 incluido) mostramos mensaje diciendo que es insuficiente.
 		if(nota>=0 && nota<5) {
 			System.out.println("Su nota es insuficiente");
-		// Sino seguimos el programa.
-		}else {
-			// Si la nota está entre 5 y 6(5 incluido) mostramos mensaje diciendo que es suficiente.
-			if(nota>=5 && nota<6) {
+		// Si la nota está entre 5 y 6(5 incluido) mostramos mensaje diciendo que es suficiente.
+		}else if(nota>=5 && nota<6) {
 				System.out.println("Su nota es suficiente");
-			// Sino seguimos el programa.
-			}else {
-				// Si la nota está entre 6 y 7(6 incluido) mostramos mensaje diciendo que es bien.
-				if(nota>=6 && nota<7) {
+			// Si la nota está entre 6 y 7(6 incluido) mostramos mensaje diciendo que es bien.
+			}else if(nota>=6 && nota<7) {
 					System.out.println("Su nota es bien");
-					// Sino seguimos el programa.
-				}else {
-					// Si la nota está entre 7 y 9(7 incluido) mostramos mensaje diciendo que es notable.
-					if(nota>=7 && nota<9) {
+				// Si la nota está entre 7 y 9(7 incluido) mostramos mensaje diciendo que es notable.
+				}else if(nota>=7 && nota<9) {
 						System.out.println("Su nota es notable");
-					// Sino seguimos el programa.
-					}else {
-						// Si la nota está entre 9 y 10(9 y 10 incluidos) mostramos mensaje diciendo que es sobresaliente.
-						if(nota>=9 && nota<=10) {
+					// Si la nota está entre 9 y 10(9 y 10 incluidos) mostramos mensaje diciendo que es sobresaliente.
+					}else if(nota>=9 && nota<=10) {
 							System.out.println("Su nota es sobresaliente");
 						}
-					}
-				}
-			}
-		}
 		// Cerramos escaner.
 		sc.close();
 	}

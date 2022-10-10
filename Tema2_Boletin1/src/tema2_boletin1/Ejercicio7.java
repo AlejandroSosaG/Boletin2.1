@@ -23,21 +23,13 @@ public class Ejercicio7 {
 					if(num>9999) {
 						System.out.println("El número tiene 5 cifras");
 					// Sino mostramos un mensaje diciendo que tiene 4 cifras.
-					}else {
-						System.out.println("El número tiene 4 cifras");
-					}
+					}else System.out.println("El número tiene 4 cifras");
 				// Sino mostramos un mensaje diciendo que tiene 3 cifras.
-				}else {
-					System.out.println("El número tiene 3 cifras");
-				}
+				}else System.out.println("El número tiene 3 cifras");
 			// Sino mostramos un mensaje diciendo que tiene 2 cifras.
-			}else {
-				System.out.println("El número tiene 2 cifras");
-			}
+			}else System.out.println("El número tiene 2 cifras");
 		// Sino mostramos un mensaje diciendo que tiene 1 cifra.
-		}else {
-			System.out.println("El número tiene 1 cifra");
-		}
+		}else System.out.println("El número tiene 1 cifra");
 		// Cerramos escaner.
 		sc.close();
 	}

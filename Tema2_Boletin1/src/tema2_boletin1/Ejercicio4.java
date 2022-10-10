@@ -23,9 +23,7 @@ public class Ejercicio4 {
 		if(num<num2) {
 			System.out.println(num + " , " + num2);
 		// Sino mostramos un mensaje con la segunda variable seguida de la primera.
-		}else {
-			System.out.println(num2 + " , " + num);
-		}
+		}else System.out.println(num2 + " , " + num);
 		// Cerramos el escaner.
 		sc.close();
 	}

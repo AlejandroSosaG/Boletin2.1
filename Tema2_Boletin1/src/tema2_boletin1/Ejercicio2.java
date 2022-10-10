@@ -22,9 +22,7 @@ public class Ejercicio2 {
 		// Si los números son iguales mostramos  un mensaje diciéndolo, si no lo son mostraremos un mensaje diciendo que no son iguales.
 		if(num==num2) {
 			System.out.println("Los números son iguales");
-		}else {
-			System.out.println("Los números no son iguales");
-		}
+		}else System.out.println("Los números no son iguales");
 		// Cerramos el escaner.
 		sc.close();
 	}

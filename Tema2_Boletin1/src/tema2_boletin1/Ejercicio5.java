@@ -29,32 +29,20 @@ public class Ejercicio5 {
 			// Si num3 es mayor a num mostramos mensaje escribiendo num3 seguido de num seguido de num2.
 			if(num3>num) {
 				System.out.println(num3 + " , " + num + " , " + num2);
-			// Sino.
-			}else {
-				// Si num3 es mayor a num2 mostramos mensaje escribiendo num seguido de num3 seguido de num2.
-				if(num3>num2) {
-					System.out.println(num + " , " + num3 + " , " + num2);
+			// Si num3 es mayor a num2 mostramos mensaje escribiendo num seguido de num3 seguido de num2.
+			}else if(num3>num2) {
+				System.out.println(num + " , " + num3 + " , " + num2);
 				// Sino mostramos mensaje escribiendo num seguido de num2 seguido de num3.
-				}else {
-					System.out.println(num + " , " + num2 + " , " + num3);
-				}
-			}
-		// Sino
-		}else {
-			// Si num2 es mayor a num3.
-			if(num2>num3) {
+				}else System.out.println(num + " , " + num2 + " , " + num3);
+		// Si num2 es mayor a num3.
+		}else if(num2>num3) {
 				// Si num3 es mayor a num mostramos mensaje escribiendo num2 seguido de num3 seguido de num.
 				if(num3>num) {
 					System.out.println(num2 + " , " + num3 + " , " + num);
 				// Sino mostramos mensaje escribiendo num2 seguido de num seguido de num3.
-				}else{
-					System.out.println(num2 + " , " + num + " , " + num3);
-				}
+				}else System.out.println(num2 + " , " + num + " , " + num3);
 			// Sino mostramos mensaje escribiendo num3 seguido de num2 seguido de num.
-			}else {
-				System.out.println(num3 + " , " + num2 + " , " + num);
-			}
-		}
+			}else System.out.println(num3 + " , " + num2 + " , " + num);
 		// Cerramos escaner.
 		sc.close();
 	}
